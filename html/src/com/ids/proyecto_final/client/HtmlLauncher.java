@@ -3,7 +3,7 @@ package com.ids.proyecto_final.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.ids.proyecto_final.Game;
+import com.ids.proyecto_final.MiniRpg;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -17,6 +17,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener createApplicationListener () {
-                return new Game();
+                return new MiniRpg();
         }
 }
