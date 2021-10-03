@@ -6,7 +6,9 @@ public class Pistolero extends Personaje {
         super("Pistolero",140,45,5,20);
     }
 
-    public void toqueVenenoso() {
+    public void golpeCritico() {
+    }
+    public void pasivaEvasion(){
     }
 
 }
